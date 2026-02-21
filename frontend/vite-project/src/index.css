@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply w-full px-4 py-3 rounded-xl bg-black/50 border border-white/10 text-white outline-none;
+}
+
+.file-input {
+  @apply w-full text-gray-300 bg-black/50 border border-white/10 rounded-xl px-3 py-2;
+}
+.input-modern {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+}
+
+.input-modern:focus {
+  border-color: #a855f7;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.4);
+}
+.input-modern-light {
+  @apply w-full px-5 py-3 rounded-xl border border-gray-300
+  focus:outline-none focus:ring-2 focus:ring-green-500
+  transition;
+}
+
+
